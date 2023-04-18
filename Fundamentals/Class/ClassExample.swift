@@ -27,7 +27,7 @@ final class Developer {
  Foi criado um objeto chamado Developer, com as informações necessárias
  var sean = Developer(name: "Sean", role: "iOS Engineer", yearsExp: 5)
  
- Foi criado um novo objeto que recebe o objeto sean anterior
+ Foi criado um novo objeto que recebe o objeto "sean" anterior
  var joe = sean
  
  Foi alterado o valor da variável "name" dentro do objeto de Joe

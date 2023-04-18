@@ -12,6 +12,7 @@
 		A933B3DA29EF44E50054C0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A933B3D929EF44E50054C0A9 /* Assets.xcassets */; };
 		A933B3DD29EF44E50054C0A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A933B3DC29EF44E50054C0A9 /* Preview Assets.xcassets */; };
 		A933B3E529EF4CC10054C0A9 /* ClassExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933B3E429EF4CC10054C0A9 /* ClassExample.swift */; };
+		A933B3E829EF51BC0054C0A9 /* StructExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933B3E729EF51BC0054C0A9 /* StructExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A933B3D929EF44E50054C0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A933B3DC29EF44E50054C0A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A933B3E429EF4CC10054C0A9 /* ClassExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassExample.swift; sourceTree = "<group>"; };
+		A933B3E729EF51BC0054C0A9 /* StructExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		A933B3D429EF44E40054C0A9 /* Fundamentals */ = {
 			isa = PBXGroup;
 			children = (
+				A933B3E629EF51B20054C0A9 /* Struct */,
 				A933B3E329EF4CA80054C0A9 /* Class */,
 				A933B3D529EF44E40054C0A9 /* FundamentalsApp.swift */,
 				A933B3D729EF44E40054C0A9 /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				A933B3E429EF4CC10054C0A9 /* ClassExample.swift */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		A933B3E629EF51B20054C0A9 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				A933B3E729EF51BC0054C0A9 /* StructExample.swift */,
+			);
+			path = Struct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				A933B3D829EF44E40054C0A9 /* ContentView.swift in Sources */,
 				A933B3E529EF4CC10054C0A9 /* ClassExample.swift in Sources */,
 				A933B3D629EF44E40054C0A9 /* FundamentalsApp.swift in Sources */,
+				A933B3E829EF51BC0054C0A9 /* StructExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
