@@ -1,24 +1,26 @@
-    //
-    //  ClassExample.swift
-    //  Fundamentals
-    //
-    //  Created by Fellipe Malta on 18/04/23.
-    //
+  //
+  //  ClassExample.swift
+  //  Fundamentals
+  //
+  //  Created by Fellipe Malta on 18/04/23.
+  //
 
 import Foundation
 
-    // Classes são type reference, ou seja, eu posso criar uma classe, depois atribui-lá a uma variável, criar esse objeto e depois atribuir a um novo objeto, a mesma classe que criei e alterar alguns valores. Isso é permitido pois ela não é type-value, igual as structs. Segue o exemplo
+  // Classes são type reference, ou seja, eu posso criar uma classe, depois atribui-lá a uma variável, criar esse objeto e depois atribuir a um novo objeto, a mesma classe que criei e alterar alguns valores. Isso é permitido pois ela não é type-value, igual as structs. Segue o exemplo
 
-class Developer {
-    var name: String
-    var role: String
-    var yearsExp: Int
-    
-    init(name: String, role: String, yearsExp: Int) {
-        self.name = name
-        self.role = role
-        self.yearsExp = yearsExp
-    }
+  // Se minha classe tiver a palavra reservada "final", as subclasses não podem herda-la
+
+final class Developer {
+  var name: String
+  var role: String
+  var yearsExp: Int
+  
+  init(name: String, role: String, yearsExp: Int) {
+    self.name = name
+    self.role = role
+    self.yearsExp = yearsExp
+  }
 }
 
 /*
